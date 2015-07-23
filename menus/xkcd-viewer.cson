@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Open xkcd/restart xkcd'
-      'command': 'xkcd-viewer:open'
+      'command': 'xkcd-comics:open'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Open/Restart'
-          'command': 'xkcd-viewer:open'
+          'command': 'xkcd-comics:open'
         }
       ]
     ]

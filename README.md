@@ -1,1 +1,1 @@
-# xkcd-viewer
+# xkcd-comics
