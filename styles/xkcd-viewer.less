@@ -1,0 +1,59 @@
+@import "ui-variables";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('http://fonts.googleapis.com/css?family=Roboto:400,700');
+}
+
+.xkcdimage-view {
+  position: relative;
+  max-width: 570px;
+  min-width: 570px;
+  left: 6px;
+  & > * {
+    font-family: 'SF UI Text', 'Lucida Grande', 'Roboto', sans-serif;
+  }
+}
+
+.xkcd-content {
+  word-wrap: break-word;
+  max-width: 570px;
+  padding: 8px;
+}
+
+.xkcd-title {
+  max-width: 520px;
+  width: 520px;
+  font-size: 18px;
+}
+
+.xkcd-description {
+  font-size: 14px;
+}
+
+.xkcd-transcript {
+  margin-left: 5px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.xkcdimage-view > .xkcd-image {
+  max-width: 558px;
+  max-height: 380px;
+  min-width: 558px;
+  min-height: 380px;
+}
+
+.xkcdimage-view > .xkcd-buttons {
+  position: relative;
+  top: 15px;
+}
+
+.xkcdimage-view > .xkcd-buttons > button {
+  position: relative;
+  font-size: 14px;
+}
+
+.xkcd-close {
+  left: 10px;
+}

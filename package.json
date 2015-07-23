@@ -1,0 +1,22 @@
+{
+  "name": "xkcd-viewer",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "xkcd comics",
+  "keywords": [
+    "xkcd",
+    "comics"
+  ],
+
+  "repository": "https://github.com/peduxe/xkcd-viewer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "node-fetch": "*",
+    "opn": "*",
+    "event-kit": "*"
+  }
+}
