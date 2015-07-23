@@ -1,7 +1,7 @@
 {
   "name": "xkcd-comics",
   "main": "./lib/main",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "xkcd comics",
   "keywords": [
     "xkcd",
