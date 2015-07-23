@@ -1,5 +1,5 @@
 {
-  "name": "xkcd-viewer",
+  "name": "xkcd-comics",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "xkcd comics",
