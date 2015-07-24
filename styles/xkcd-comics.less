@@ -7,9 +7,6 @@
 
 .xkcdimage-view {
   position: relative;
-  max-width: 640px;
-  min-width: 640px;
-  left: 6px;
   & > * {
     font-family: 'SF UI Text', 'Lucida Grande', 'Roboto', sans-serif;
   }
@@ -22,39 +19,51 @@
 }
 
 .xkcd-title {
+  position: relative;
   font-size: 18px;
   max-width: 350px;
 }
 
 .xkcd-description {
+  position: relative;
   font-size: 14px;
 }
 
 .xkcd-transcript {
+  position: relative;
+  max-width: 500px;
   margin-left: 5px;
   font-size: 12px;
   font-style: italic;
 }
 
-.xkcdimage-view > .xkcd-image {
-  max-width: 628px;
-  max-height: 380px;
-  min-width: 628px;
-  min-height: 380px;
+.xkcd-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: overlay;
+  overflow-x: hidden;
 }
 
-.xkcdimage-view > .xkcd-buttons {
+.xkcd-buttons {
   position: relative;
-  top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.xkcdimage-view > .xkcd-buttons > button {
-  position: relative;
+.xkcd-buttons > button {
   font-size: 14px;
+  will-change: opacity;
+  opacity: 0.7;
+  transition: opacity 0.6s;
+  -webkit-transition: opacity 0.6s;
+  &:hover {
+    opacity: 1.0;
+  }
 }
 
 .xkcd-gotoId {
-  width: 130px;
+  width: 80px;
 }
 
 .xkcd-close {
