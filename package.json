@@ -1,5 +1,5 @@
 {
-  "name": "xkcd-comics",
+  "name": "xkcd-debounce-fix",
   "main": "./lib/main",
   "version": "0.3.0",
   "description": "xkcd comics",
