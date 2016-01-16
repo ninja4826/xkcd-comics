@@ -7,7 +7,7 @@
     "xkcd",
     "comics"
   ],
-  "repository": "https://github.com/peduxe/xkcd-comics",
+  "repository": "https://github.com/ninja4826/xkcd-comics",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
