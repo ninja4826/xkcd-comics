@@ -1,5 +1,5 @@
 {
-  "name": "xkcd-fork",
+  "name": "xkcd-comics",
   "main": "./lib/main",
   "version": "0.3.0",
   "description": "xkcd comics",
